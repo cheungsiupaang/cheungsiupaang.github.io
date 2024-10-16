@@ -10,4 +10,4 @@ paperurl: 'http://cheungsiupaang.github.io/files/acait.pdf'
 citation: 'Z. Zhang, X. Liang, Z. Zhang, and J. Han, &quot;An Anti-Swing Controller for Aerial Transportation System with Flexible Suspending Rope,&quot; <i>2021 5th Asian Conference on Artificial Intelligence Technology (ACAIT)</i>. Haikou, China, 2021, pp. 59-64, doi: 10.1109/ACAIT53529.2021.9731307.'
 ---
 
-Design a nonlinear anti-swing controller for the aerial transportation system with flexible rope.
+Designed a nonlinear anti-swing controller for the aerial transportation system with flexible rope.

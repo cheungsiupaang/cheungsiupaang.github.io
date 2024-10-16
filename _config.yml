@@ -25,11 +25,11 @@ author:
   avatar           : "zzp.png"
   name             : "张兆鹏"
   pronouns         : "he/him" # example: "she/her" 
-  bio              : "PhD Candidate of Nankai University"
+  bio              : "PhD Candidate in Robotics"
   location         : "Tianjin, China"
   employer         : "Nankai University"
   uri              : # URL
-  email            : "zhangzp@mail.nankai.edu.cn" 
+  email            : "zhangzp@mail.nankai.edu.cn"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -55,7 +55,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "zhangzp1412" # Username
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
