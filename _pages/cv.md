@@ -11,11 +11,12 @@ redirect_from:
 
 ## Education
 
-* Ph.D in Robotics, Nankai University
-* M.S. College of Artificial Intelligence, Nankai University, 2021-2023
-* B.S. Automation, Nankai University, 2017-2021
+* Ph.D, Robotics, Institute of Robotics and Automatic Information System (IRAIS), Nankai University, 2023-
+* M.S., Robotics, Institute of Robotics and Automatic Information System (IRAIS), Nankai University, 2021-2023
+* B.S., Automation, Nankai University, 2017-2021
 
 ## Skills
 
-* ROS
-* MATLAB/Simulink
+* [ROS](https://wiki.ros.org/)
+* [PX4](https://px4.io/)
+* MATLAB/Simulink, C++, Python

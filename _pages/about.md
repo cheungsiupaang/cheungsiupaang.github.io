@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Cheung Siupaang is my Cantonese name, and Zhang Zhaopeng is my Mandarin Chinese name.
+Cheung Siupaang is my name in Cantonese, and Zhang Zhaopeng is my name in Mandarin Chinese.
 
-I'm a Ph.D. candidate from [College of Artificial Intelligence](https://ai.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/). My research interest includes aerial manipulator, motion planning, and visual control.
-
-<!-- You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf). -->
-[Email](mailto:zhangzp@mail.nankai.edu.cn) / [Github](https://github.com/cheungsiupaang)
+I'm a Ph.D. candidate in [College of Artificial Intelligence](https://ai.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/). My research interest includes aerial manipulator, motion planning, and visual servoing control.
