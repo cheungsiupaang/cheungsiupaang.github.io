@@ -12,7 +12,7 @@ redirect_from:
 ### Japan
 
 - Nobunaga-shoten, Osaka
-![nobunaga-osaka](http://cheungsiupaang.github.io/images/2024-osaka-nobunagashoten.png)
+![nobunaga-osaka](http://cheungsiupaang.github.io/images/2024-osaka-nobunagashoten.png =x300)
 - Kawagawa, Kyoto
 ![kawagawa-kyoto](http://cheungsiupaang.github.io/images/2024-kyoto-kawagawa.png)
 - Me in front of Honouji, Kyoto
