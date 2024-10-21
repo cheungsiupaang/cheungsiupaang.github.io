@@ -12,20 +12,15 @@ redirect_from:
 ### Japan
 
 - Nobunaga-shoten, Osaka
-- <img src="http://cheungsiupaang.github.io/images/2024-osaka-nobunagashoten.png" alt="nobunaga-osaka" height="20">
-<!-- ![nobunaga-osaka](http://cheungsiupaang.github.io/images/2024-osaka-nobunagashoten.png) -->
+![nobunaga-osaka](http://cheungsiupaang.github.io/images/2024-osaka-nobunagashoten.png)
 - Kawagawa, Kyoto
-- <img src="http://cheungsiupaang.github.io/images/2024-kyoto-kawagawa.png" alt="kawagawa-kyoto" height="20">
-<!-- ![kawagawa-kyoto](http://cheungsiupaang.github.io/images/2024-kyoto-kawagawa.png) -->
+![kawagawa-kyoto](http://cheungsiupaang.github.io/images/2024-kyoto-kawagawa.png)
 - Me in front of Honouji, Kyoto
-- <img src="http://cheungsiupaang.github.io/images/2024-kyoto-honouji.png" alt="honouji-kyoto" height="20">
-<!-- ![honouji-kyoto](http://cheungsiupaang.github.io/images/2024-kyoto-honouji.png) -->
+![honouji-kyoto](http://cheungsiupaang.github.io/images/2024-kyoto-honouji.png)
 - Narakouen, Nara
-- <img src="http://cheungsiupaang.github.io/images/2024-nara.png" alt="narakouen-nara" height="20">
-<!-- ![narakouen-nara](http://cheungsiupaang.github.io/images/2024-nara.png) -->
+![narakouen-nara](http://cheungsiupaang.github.io/images/2024-nara.png)
 - Ujikawa, Uji
-- <img src="http://cheungsiupaang.github.io/images/2024-uji-ujikawa.png" alt="ujikawa-uji" height="20">
-<!-- ![ujikawa-uji](http://cheungsiupaang.github.io/images/2024-uji-ujikawa.png) -->
+![ujikawa-uji](http://cheungsiupaang.github.io/images/2024-uji-ujikawa.png)
 
 ### Hong Kong, China
 
