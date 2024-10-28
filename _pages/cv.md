@@ -11,8 +11,8 @@ redirect_from:
 
 ## Education
 
-* Ph.D., Institute of Robotics and Automatic Information System (IRAIS), Nankai University, 2023-now
-* M.S., Institute of Robotics and Automatic Information System (IRAIS), Nankai University, 2021-2023
+* Ph.D., College of Artificial Intelligence, Nankai University, 2023-now
+* M.S., College of Artificial Intelligence, Nankai University, 2021-2023
 * B.S., Automation, Nankai University, 2017-2021
 
 ## Skills
