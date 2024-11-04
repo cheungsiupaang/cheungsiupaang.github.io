@@ -2,7 +2,7 @@
 _site/
 .sass-cache/
 
-.DS_store
+.DS_Store
 # Ignore the directory for local files during development
 local/
 
