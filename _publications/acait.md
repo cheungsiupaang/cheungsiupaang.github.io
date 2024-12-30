@@ -9,4 +9,4 @@ venue: 'Asian Conference on Artificial Intelligence Technology (ACAIT)' #'GitHub
 paperurl: 'http://cheungsiupaang.github.io/files/acait.pdf'
 citation: '<b>Zhaopeng Zhang</b>, Xiao Liang*, Zhuang Zhang, and Jianda Han'
 ---
-Designed a nonlinear anti-swing controller for the aerial transportation system with flexible rope.
+Design a nonlinear anti-swing controller for the aerial transportation system with flexible rope.

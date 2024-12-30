@@ -10,4 +10,4 @@ venue: 'Control Theory and Applications, 41(5), Chinese' # 'Journal 1'
 paperurl: 'http://cheungsiupaang.github.io/files/kzllyy.pdf'
 citation: '<b>Zhaopeng Zhang</b>, Wei He, Xiao Liang*, Jianda Han, and Yongchun Fang'
 ---
-Proposed a hierarchical motion decomposition based visual servoing control scheme for aerial manipulator.
+Propose a hierarchical motion decomposition based visual servoing control scheme for aerial manipulators.
