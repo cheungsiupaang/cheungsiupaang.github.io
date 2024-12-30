@@ -11,14 +11,14 @@ redirect_from:
 
 ### Japan
 
-- Nobunaga-shoten, Osaka
-![nobunaga-osaka](http://cheungsiupaang.github.io/images/2024-osaka-nobunagashoten.png)
+<!-- - Nobunaga-shoten, Osaka
+![nobunaga-osaka](http://cheungsiupaang.github.io/images/2024-osaka-nobunagashoten.png) -->
 - Kawagawa, Kyoto
 ![kawagawa-kyoto](http://cheungsiupaang.github.io/images/2024-kyoto-kawagawa.png)
-- Me in front of Honouji, Kyoto
-![honouji-kyoto](http://cheungsiupaang.github.io/images/2024-kyoto-honouji.png)
-- Narakouen, Nara
-![narakouen-nara](http://cheungsiupaang.github.io/images/2024-nara.png)
+<!-- - Me in front of Honouji, Kyoto
+![honouji-kyoto](http://cheungsiupaang.github.io/images/2024-kyoto-honouji.png) -->
+<!-- - Narakouen, Nara
+![narakouen-nara](http://cheungsiupaang.github.io/images/2024-nara.png) -->
 - Ujikawa, Uji
 ![ujikawa-uji](http://cheungsiupaang.github.io/images/2024-uji-ujikawa.png)
 
