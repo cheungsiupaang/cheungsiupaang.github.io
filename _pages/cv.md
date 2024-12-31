@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+My detailed Curriculum Vitae can be downloaded in [CV](/files/CV-zzp.pdf).
+
 ## Education
 
 * Ph.D., College of Artificial Intelligence, Nankai University, 2023-now
