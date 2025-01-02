@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-My detailed Curriculum Vitae can be downloaded in [CV](/files/zzp-CV.pdf).
+My detailed Curriculum Vitae can be downloaded in [CV](/files/ZZP-CV.pdf).
 
 ## Education
 
