@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-My detailed Curriculum Vitae can be downloaded in [CV](/files/CV-zzp.pdf).
+My detailed Curriculum Vitae can be downloaded in [CV](/files/zzp-CV.pdf).
 
 ## Education
 
 * Ph.D., College of Artificial Intelligence, Nankai University, 2023-now
-* M.S., College of Artificial Intelligence, Nankai University, 2021-2023
-* B.S., Automation, Nankai University, 2017-2021
+* M.Eng., College of Artificial Intelligence, Nankai University, 2021-2023
+* B.Eng., Automation, Nankai University, 2017-2021
 
 ## Skills
 
