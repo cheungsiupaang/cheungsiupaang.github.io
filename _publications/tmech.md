@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-tmech
 date: 2025-03-04
-venue: 'IEEE Transactions on Mechatronics, early access'
+venue: 'IEEE/AMSE Transactions on Mechatronics, early access'
 paperurl: 'http://cheungsiupaang.github.io/files/TMech.pdf'
 citation: '<b>Zhaopeng Zhang</b>, Hai Yu, Yi Chai, Zhichao Yang, Xiao Liang*, Yongchun Fang, and Jianda Han'
 ---
