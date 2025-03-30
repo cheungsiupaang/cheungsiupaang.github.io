@@ -9,6 +9,7 @@ redirect_from:
 
 ### Mentorship
 
+- [Yu Hai](u-hai.github.io)
 - Wang Shunxuan
 
 ### Other Experience
