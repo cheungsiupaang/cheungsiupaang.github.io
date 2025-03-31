@@ -12,14 +12,14 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}-->
 
-You can also find my articles on <u><a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</u>
+You can also find my articles on <u><a href="{{site.author.googlescholar}}">Google Scholar</a>.</u>
 
 <head>
   <link rel="stylesheet" href="styles.css">
   <style>
     a {
       text-decoration: none; /* Removes underline */
-      color: blue; /* Makes the link blue */
+      color: #449DBC; /* Makes the link blue */
     }
 
     a:hover {
@@ -36,7 +36,7 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">my G
   </div>
   <div class="info-container">
     <p class="paper-title">An End-Effector-Oriented Coupled Motion Planning Method for Aerial Manipulators in Constrained Environments</p>
-    <p class="authors"> <b>Zhaopeng Zhang</b>, <u><a href="https://u-hai.github.io/">Hai Yu</a></u>, Yi Chai, Zhichao Yang, Xiao Liang*, Yongchun Fang, and Jianda Han </p>
+    <p class="authors"> <b>Zhaopeng Zhang</b>, <a href="https://u-hai.github.io/">Hai Yu</a>, Yi Chai, Zhichao Yang, Xiao Liang*, Yongchun Fang, and Jianda Han </p>
     <p class="journal"> <b>IEEE/ASME Transactions on Mechatronics</b>, early access, 2025 </p>
     <p class="url">
     <span><a href="https://ieeexplore.ieee.org/document/10943237">url</a></span>  |  
@@ -55,7 +55,6 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">my G
     </p>
     <p class="journal"> <b>Control Theory and Applications</b>, in Chinese, 41(5) </p>
     <p class="url">
-    <span><a href="https://kns.cnki.net/kcms2/article/abstract?v=0iq8nzQYh5QP4ANfitmusAWRpPNlWknTXxftqgtSWVEVBTX97t2nvFr2YUJIgRRCseiXiP7WZruaSH6Z6mWt2nphvuVFHRfVPXsRs8Vtrs4UFng2ELwOn3tlftx5XEVqte5qb2fOd_op2SS6LbJoCNliwARhlhupbZoe2RXyfsXfGcrfCCyhqA==&uniplatform=NZKPT&language=CHS">url</a></span>  |  
     <span><a href="http://cheungsiupaang.github.io/files/kzllyy.pdf">pdf</a></span>
     </p>
   </div>
