@@ -18,9 +18,8 @@ author_profile: true
       text-decoration: none; /* Removes underline */
       color: #449DBC; /* Makes the link blue */
     }
-
     a:hover {
-      text-decoration: underline; /* Optional: adds underline on hover */
+      text-decoration: none; /* Optional: adds underline on hover */
     }
   </style>
 </head>
