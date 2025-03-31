@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, html {
+  width: 100%;  /* Ensure the body takes up full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+/* The container that holds both the image (GIF/PNG) and the information */
+.paper-container {
+  display: flex;
+  flex-wrap: wrap;  /* Allow the layout to wrap on smaller screens */
+  align-items: center; /* Vertically center content */
+  justify-content: flex-start; /* Align content from the left */
+  padding: 0;
+  width: 100%; /* Ensure container takes up full width */
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+/* Left side: Media (GIF or PNG) */
+.media-container {
+  flex: 1 1 30%; 
+  padding-right: 3%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Media: GIF and PNG */
+.paper-image {
+  height: 200px; /* Limit height */
+  width: auto;
+  max-width: 100%; /* Ensure it doesn't exceed its container */
+  object-fit: contain; /* Keep aspect ratio */
+}
+
+/* Right side: Information */
+.info-container {
+  flex: 1 1 70%; /* Right side takes up 70% of the width */
+  padding-left: 0%; /* Space between the image and the text */
+  text-align: left;
+}
+
+.paper-title {
+  font-size: 1.0rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+
+.authors, .journal, .url, .info {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-top: 0rem;
+  margin-bottom: 0.2rem;
+}
+
+/* 取消链接下划线并设置为蓝色 */
+a {
+  text-decoration: none; /* 去除下划线 */
+  color: blue; /* 设置链接颜色为蓝色 */
+}
+
+/* 可选：鼠标悬停时显示下划线 */
+a:hover {
+  text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+
+/* Responsive design for smaller screens (mobile devices) */
+@media ((max-width: 768px) and (orientation: portrait)) {
+  .media-container {
+      flex: 1 1 100%;  /* Let the media take up the full width on small screens */
+      padding-right: 0;  /* Remove right padding on mobile */
+  }
+
+  .info-container {
+      flex: 1 1 80%;  /* Let the text take up more space on small screens */
+      padding-left: 0;  /* Remove left padding on mobile */
+  }
+
+  .paper-image {
+      height: 150px;  /* Reduce height for smaller screens */
+      width: auto;
+  }
+
+  .paper-title {
+      font-size: 1rem;  /* Adjust title size */
+  }
+
+  .authors, .journal, .url {
+      font-size: 0.9rem;  /* Adjust text size */
+  }
+}
