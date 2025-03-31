@@ -39,8 +39,41 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">my G
     <p class="authors"> <b>Zhaopeng Zhang</b>, <u><a href="https://u-hai.github.io/">Hai Yu</a></u>, Yi Chai, Zhichao Yang, Xiao Liang*, Yongchun Fang, and Jianda Han </p>
     <p class="journal"> <b>IEEE/ASME Transactions on Mechatronics</b>, early access, 2025 </p>
     <p class="url">
-    <span><a href="https://ieeexplore.ieee.org/document/10943237">url</a></span> | 
+    <span><a href="https://ieeexplore.ieee.org/document/10943237">url</a></span>  |  
     <span><a href="http://cheungsiupaang.github.io/files/TMech.pdf">pdf</a></span>
-</p>
+    </p>
+  </div>
+</div>
+
+<div class="paper-container">
+  <div class="media-container">
+    <img src="2023-kzllyy.png" alt="GIF Description" class="paper-image">
+  </div>
+  <div class="info-container">
+    <p class="paper-title">Visual servoing control for aerial manipulator via hierarchical motion decomposition</p>
+    <p class="authors"> <b>Zhaopeng Zhang</b>, Wei He, Xiao Liang*, Jianda Han, and Yongchun Fang 
+    </p>
+    <p class="journal"> <b>Control Theory and Applications</b>, in Chinese, 41(5) </p>
+    <p class="url">
+    <span><a href="https://kns.cnki.net/kcms2/article/abstract?v=0iq8nzQYh5QP4ANfitmusAWRpPNlWknTXxftqgtSWVEVBTX97t2nvFr2YUJIgRRCseiXiP7WZruaSH6Z6mWt2nphvuVFHRfVPXsRs8Vtrs4UFng2ELwOn3tlftx5XEVqte5qb2fOd_op2SS6LbJoCNliwARhlhupbZoe2RXyfsXfGcrfCCyhqA==&uniplatform=NZKPT&language=CHS">url</a></span>  |  
+    <span><a href="http://cheungsiupaang.github.io/files/kzllyy.pdf">pdf</a></span>
+    </p>
+  </div>
+</div>
+
+## Conference Proceedings
+
+<div class="paper-container">
+  <div class="media-container">
+    <img src="2021-acait.png" alt="GIF Description" class="paper-image">
+  </div>
+  <div class="info-container">
+    <p class="paper-title">An Anti-Swing Controller for Aerial Transportation System with Flexible Suspending Rope</p>
+    <p class="authors"> <b>Zhaopeng Zhang</b>, Xiao Liang*, Zhuang Zhang, and Jianda Han </p>
+    <p class="journal"> <b>Asian Conference on Artificial Intelligence Technology (ACAIT)</b>, 2021 </p>
+    <p class="url">
+    <span><a href="https://ieeexplore.ieee.org/document/9731307">url</a></span>  |  
+    <span><a href="http://cheungsiupaang.github.io/files/acait.pdf">pdf</a></span>
+    </p>
   </div>
 </div>
