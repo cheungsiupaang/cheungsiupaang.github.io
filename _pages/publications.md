@@ -11,9 +11,6 @@ author_profile: true
 <!--{% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}-->
-
-You can also find my articles on <u><a href="{{site.author.googlescholar}}">Google Scholar</a>.</u>
-
 <head>
   <link rel="stylesheet" href="styles.css">
   <style>
@@ -27,6 +24,8 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">Goog
     }
   </style>
 </head>
+
+You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.
 
 ## Journal Articles
 
