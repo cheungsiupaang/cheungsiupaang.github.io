@@ -32,17 +32,15 @@ You can also find my articles on <u><a href="{{site.author.googlescholar}}">my G
 
 <div class="paper-container">
   <div class="media-container">
-    <img src="TASE-2023-2664-video.gif" alt="GIF Description" class="paper-image">
+    <img src="2025-TMech.gif" alt="GIF Description" class="paper-image">
   </div>
   <div class="info-container">
     <p class="paper-title">An End-Effector-Oriented Coupled Motion Planning Method for Aerial Manipulators in Constrained Environments</p>
     <p class="authors"> <b>Zhaopeng Zhang</b>, <u><a href="https://u-hai.github.io/">Hai Yu</a></u>, Yi Chai, Zhichao Yang, Xiao Liang*, Yongchun Fang, and Jianda Han </p>
     <p class="journal"> <b>IEEE/ASME Transactions on Mechatronics</b>, early access, 2025 </p>
-    <p class="url"> 
-    [<a href="https://ieeexplore.ieee.org/document/10943237">url</a>] 
-    </p>
-    <p class="url"> 
-    [<a href="http://cheungsiupaang.github.io/files/TMech.pdf">pdf</a>] 
-    </p>
+    <p class="url">
+    <span><a href="https://ieeexplore.ieee.org/document/10943237">url</a></span> | 
+    <span><a href="http://cheungsiupaang.github.io/files/TMech.pdf">pdf</a></span>
+</p>
   </div>
 </div>
