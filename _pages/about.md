@@ -13,4 +13,4 @@ I'm a Ph.D. candidate in College of Artificial Intelligence, Nankai University, 
 
 My research interest includes robotics, aerial manipulators, and motion planning.
 
-My detailed Curriculum Vitae can be downloaded in [CV](/CV/main.pdf).
+📄 [Download CV (PDF)](/CV/main.pdf)
