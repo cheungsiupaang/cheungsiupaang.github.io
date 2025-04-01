@@ -1,94 +1,104 @@
-/* Reset some default styles */
+/* === Reset === */
 body, html {
-  width: 100%;  /* Ensure the body takes up full width */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+  width: 100%;
+  box-sizing: border-box;
 }
 
-/* The container that holds both the image (GIF/PNG) and the information */
+/* === Paper Card Container === */
 .paper-container {
   display: flex;
-  flex-wrap: wrap;  /* Allow the layout to wrap on smaller screens */
-  align-items: center; /* Vertically center content */
-  justify-content: flex-start; /* Align content from the left */
-  padding: 0;
-  width: 100%; /* Ensure container takes up full width */
-  margin: 0;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #ddd; /* Light gray border */
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 12px 16px;
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
 }
 
-/* Left side: Media (GIF or PNG) */
+.paper-container:hover {
+  transform: translateY(-2px);
+}
+
+/* === Media (GIF / PNG) === */
 .media-container {
-  flex: 1 1 30%; 
+  flex: 1 1 30%;
   padding-right: 3%;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
-/* Media: GIF and PNG */
 .paper-image {
-  height: 200px; /* Limit height */
+  height: 160px;
   width: auto;
-  max-width: 100%; /* Ensure it doesn't exceed its container */
-  object-fit: contain; /* Keep aspect ratio */
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 1px solid #ddd;
 }
 
-/* Right side: Information */
+/* === Info Section === */
 .info-container {
-  flex: 1 1 70%; /* Right side takes up 70% of the width */
-  padding-left: 0%; /* Space between the image and the text */
+  flex: 1 1 70%;
   text-align: left;
 }
 
 .paper-title {
-  font-size: 1.0rem;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  line-height: 1.4;
   font-weight: bold;
-  margin-top: 0rem;
-  margin-bottom: 0.5rem;
+  color: #333;
+  margin: 0 0 0.4rem 0;
 }
 
 .authors, .journal, .url, .info {
-  font-size: 0.8rem;
-  line-height: 1.5;
-  margin-top: 0rem;
-  margin-bottom: 0.2rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  color: #444;
+  margin: 0 0 0.2rem 0;
 }
 
-/* 取消链接下划线并设置为蓝色 */
+.journal {
+  font-style: italic;
+  color: #666;
+}
+
+/* === Links === */
 a {
-  text-decoration: none; /* 去除下划线 */
-  color: blue; /* 设置链接颜色为蓝色 */
+  text-decoration: none;
+  color: #66b3ff;
 }
 
-/* 可选：鼠标悬停时显示下划线 */
 a:hover {
-  text-decoration: underline; /* 鼠标悬停时显示下划线 */
+  text-decoration: underline;
+  color: #3399ff;
 }
 
-/* Responsive design for smaller screens (mobile devices) */
-@media ((max-width: 768px) and (orientation: portrait)) {
+/* === Responsive Design === */
+@media (max-width: 768px) {
   .media-container {
-      flex: 1 1 100%;  /* Let the media take up the full width on small screens */
-      padding-right: 0;  /* Remove right padding on mobile */
+      flex: 1 1 100%;
+      padding-right: 0;
+      margin-bottom: 1rem;
   }
 
   .info-container {
-      flex: 1 1 80%;  /* Let the text take up more space on small screens */
-      padding-left: 0;  /* Remove left padding on mobile */
+      flex: 1 1 100%;
+      padding-left: 0;
   }
 
   .paper-image {
-      height: 150px;  /* Reduce height for smaller screens */
-      width: auto;
+      height: 140px;
   }
 
   .paper-title {
-      font-size: 1rem;  /* Adjust title size */
+      font-size: 1rem;
   }
 
   .authors, .journal, .url {
-      font-size: 0.9rem;  /* Adjust text size */
+      font-size: 0.85rem;
   }
 }
