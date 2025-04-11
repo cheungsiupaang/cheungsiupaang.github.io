@@ -37,7 +37,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     <p class="authors"> <b>Zhaopeng Zhang</b>, Shizhen Wu, Chenfeng Guo, Yongchun Fang, Jianda Han, and Xiao Liang*, </p>
     <p class="journal"> <b>arXiv</b>, 2025</p>
     <p class="url">
-    <span><a href="https://ieeexplore.ieee.org/document/10943237">arxiv</a></span>  |  
+    <span><a href="https://ieeexplore.ieee.org/document/10943237">arxiv</a></span> 
     </p>
   </div>
 </div>
