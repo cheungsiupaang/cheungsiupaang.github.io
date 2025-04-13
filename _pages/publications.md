@@ -37,7 +37,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     <p class="authors"><b>Zhaopeng Zhang</b>, <a href="https://scholar.google.com/citations?user=SLfWXGgAAAAJ&hl=zh-CN&oi=ao">Shizhen Wu</a>, Chenfeng Guo, Yongchun Fang, Jianda Han, and Xiao Liang*</p>
     <p class="journal"><b>arXiv</b>, 2025</p>
     <p class="url">
-    <span><a href="https://ieeexplore.ieee.org/document/10943237">url</a></span> 
+    <span><a href="http://cheungsiupaang.github.io/files/ArXiv.pdf">pdf</a></span>
     </p>
   </div>
 </div>
@@ -61,7 +61,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
 
 <div class="paper-container">
   <div class="media-container">
-    <img src="2023-kzllyy.png" alt="GIF Description" class="paper-image">
+    ![GIF Description](2023-kzllyy.png){: .paper-image}
   </div>
   <div class="info-container">
     <p class="paper-title">Visual servoing control for aerial manipulator via hierarchical motion decomposition</p>
