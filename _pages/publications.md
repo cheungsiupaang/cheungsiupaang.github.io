@@ -23,13 +23,15 @@ author_profile: true
     }
     span a {
       border: 1px solid #449DBC;
-      padding: 2px 8px;
-      border-radius: 4px;
+      padding: 1px 6px;
+      border-radius: 3px;
+      text-decoration: none !important;
     }
     span a:hover {
       background-color:#449DBC;
       color: white;
       transition: all 0.3s ease;
+      text-decoration: none !important;
     }
   </style>
 </head>
