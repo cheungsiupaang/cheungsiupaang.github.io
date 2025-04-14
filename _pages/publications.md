@@ -33,6 +33,9 @@ author_profile: true
       transition: all 0.3s ease;
       text-decoration: none !important;
     }
+    span {
+      margin-right: 20px;
+    }
   </style>
 </head>
 
@@ -49,8 +52,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     <p class="authors"><b>Zhaopeng Zhang</b>, <a href="https://scholar.google.com/citations?user=SLfWXGgAAAAJ&hl=zh-CN&oi=ao">Shizhen Wu</a>, Chenfeng Guo, Yongchun Fang, Jianda Han, and Xiao Liang*</p>
     <p class="journal"><b>arXiv</b>, 2025</p>
     <p class="url">
-    <!-- <span><a href="http://cheungsiupaang.github.io/files/ArXiv.pdf">pdf</a></span> -->
-    <span><a href="https://arxiv.org/abs/2504.08338">url</a></span>  |  
+    <span><a href="https://arxiv.org/abs/2504.08338">url</a></span>
     <span><a href="http://cheungsiupaang.github.io/files/ArXiv.pdf">pdf</a></span>
     </p>
   </div>
@@ -67,7 +69,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     <p class="authors"> <b>Zhaopeng Zhang</b>, <a href="https://u-hai.github.io/">Hai Yu</a>, Yi Chai, Zhichao Yang, Xiao Liang*, Yongchun Fang, and Jianda Han </p>
     <p class="journal"> <b>IEEE/ASME Transactions on Mechatronics</b>, early access, 2025 </p>
     <p class="url">
-    <span><a href="https://ieeexplore.ieee.org/document/10943237">url</a></span>  |  
+    <span><a href="https://ieeexplore.ieee.org/document/10943237">url</a></span>
     <span><a href="http://cheungsiupaang.github.io/files/TMech.pdf">pdf</a></span>
     </p>
   </div>
@@ -99,7 +101,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     <p class="authors"> <b>Zhaopeng Zhang</b>, Xiao Liang*, Zhuang Zhang, and Jianda Han </p>
     <p class="journal"> <b>Asian Conference on Artificial Intelligence Technology (ACAIT)</b>, 2021 </p>
     <p class="url">
-    <span><a href="https://ieeexplore.ieee.org/document/9731307">url</a></span>  |  
+    <span><a href="https://ieeexplore.ieee.org/document/9731307">url</a></span>
     <span><a href="http://cheungsiupaang.github.io/files/acait.pdf">pdf</a></span>
     </p>
   </div>
