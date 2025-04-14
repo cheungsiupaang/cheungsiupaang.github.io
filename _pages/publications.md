@@ -22,7 +22,7 @@ author_profile: true
       text-decoration: none; /* Optional: adds underline on hover */
     }
     span a {
-      border: 1px solid #449DBC;
+      border: 2px solid #449DBC;
       padding: 1px 6px;
       border-radius: 3px;
       text-decoration: none !important;
