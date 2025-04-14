@@ -22,12 +22,12 @@ author_profile: true
       text-decoration: none; /* Optional: adds underline on hover */
     }
     span a {
-      border: 1px solid rgb(184, 68, 188);
+      border: 1px solid #449DBC;
       padding: 2px 8px;
       border-radius: 4px;
     }
     span a:hover {
-      background-color:rgb(184, 68, 188);
+      background-color:#449DBC;
       color: white;
       transition: all 0.3s ease;
     }
@@ -73,7 +73,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
 
 <div class="paper-container">
   <div class="media-container">
-    ![GIF Description](2023-kzllyy.png){: .paper-image}
+    <img src="2023-kzllyy.png" alt="PNG Description" class="paper-image">
   </div>
   <div class="info-container">
     <p class="paper-title">Visual servoing control for aerial manipulator via hierarchical motion decomposition</p>
