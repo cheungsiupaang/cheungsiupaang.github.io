@@ -21,6 +21,16 @@ author_profile: true
     a:hover {
       text-decoration: none; /* Optional: adds underline on hover */
     }
+    span a {
+      border: 1px solid rgb(184, 68, 188);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    span a:hover {
+      background-color:rgb(184, 68, 188);
+      color: white;
+      transition: all 0.3s ease;
+    }
   </style>
 </head>
 
@@ -37,6 +47,8 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     <p class="authors"><b>Zhaopeng Zhang</b>, <a href="https://scholar.google.com/citations?user=SLfWXGgAAAAJ&hl=zh-CN&oi=ao">Shizhen Wu</a>, Chenfeng Guo, Yongchun Fang, Jianda Han, and Xiao Liang*</p>
     <p class="journal"><b>arXiv</b>, 2025</p>
     <p class="url">
+    <!-- <span><a href="http://cheungsiupaang.github.io/files/ArXiv.pdf">pdf</a></span> -->
+    <span><a href="https://arxiv.org/abs/2504.08338">url</a></span>  |  
     <span><a href="http://cheungsiupaang.github.io/files/ArXiv.pdf">pdf</a></span>
     </p>
   </div>
