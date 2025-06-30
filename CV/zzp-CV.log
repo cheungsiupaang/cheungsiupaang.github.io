@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.23)  16 JUN 2025 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.23)  30 JUN 2025 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,18 +497,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 enddocument/afterlastpage: lastpage setting LastPage.
 (./zzp-CV.aux) ) 
 Here is how much of TeX's memory you used:
- 14959 strings out of 476025
- 259422 string characters out of 5790017
+ 14963 strings out of 476025
+ 259485 string characters out of 5790017
  1872388 words of memory out of 5000000
- 35208 multiletter control sequences out of 15000+600000
- 547369 words of font info for 52 fonts, out of 8000000 for 9000
+ 35210 multiletter control sequences out of 15000+600000
+ 551894 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,76p,294b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,76p,294b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on zzp-CV.pdf (1 page, 183771 bytes).
+Output written on zzp-CV.pdf (1 page, 185867 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
