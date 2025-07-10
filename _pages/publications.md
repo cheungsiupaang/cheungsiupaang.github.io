@@ -108,4 +108,10 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
   </div>
 </div>
 
-[视频标题](https://www.youtube.com/watch?v=BGH5T2kPbWw)
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/BGH5T2kPbWw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+</iframe>
