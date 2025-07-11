@@ -72,7 +72,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
   </div>
 </div>
 
-<iframe width="560" height="315"
+<iframe width="528" height="297"
         src="https://www.youtube.com/embed/0KmbkZefSSk"
         title="YouTube video player"
         frameborder="0"
