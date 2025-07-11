@@ -41,8 +41,6 @@ author_profile: true
 
 You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.
 
-## Preprint
-
 <div class="paper-container">
   <div class="media-container">
     <img src="ringo.gif" alt="GIF Description" class="paper-image">
@@ -57,8 +55,6 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     </p>
   </div>
 </div>
-
-## Journal Articles
 
 <div class="paper-container">
   <div class="media-container">
@@ -76,6 +72,16 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
   </div>
 </div>
 
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/0KmbkZefSSk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+</iframe>
+
+## Early-stage Publications
+
 <div class="paper-container">
   <div class="media-container">
     <img src="2023-kzllyy.png" alt="PNG Description" class="paper-image">
@@ -90,8 +96,6 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     </p>
   </div>
 </div>
-
-## Conference Proceedings
 
 <div class="paper-container">
   <div class="media-container">
