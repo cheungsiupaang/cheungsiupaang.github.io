@@ -72,13 +72,13 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
   </div>
 </div>
 
-<iframe width="400" height="225"
+<!-- <iframe width="400" height="225"
         src="https://www.youtube.com/embed/0KmbkZefSSk"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
-</iframe>
+</iframe> -->
 
 ## Early-stage Publications
 
