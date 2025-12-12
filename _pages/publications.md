@@ -53,7 +53,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">Google 
     <p class="journal"><b>arXiv</b>, 2025</p>
     <p class="url">
     <span><a href="https://arxiv.org/abs/2504.08338">arXiv</a></span>
-    <span><a href="http://cheungsiupaang.github.io/files/onlineplanning.pdf">pdf</a></span>
+    <span><a href="http://cheungsiupaang.github.io/files/RINGO.pdf">pdf</a></span>
     </p>
   </div>
 </div>
