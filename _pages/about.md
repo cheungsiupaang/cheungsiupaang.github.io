@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<span id="about"></span>
+
 I'm a Ph.D. candidate in College of Artificial Intelligence, Nankai University, supervised by [Prof. Jianda Han](https://ai.nankai.edu.cn/info/1033/2796.htm) and [Prof. Xiao Liang](https://ai.nankai.edu.cn/info/1034/4844.htm).
 
 My research interest includes robotics, aerial manipulators, and motion planning.
@@ -15,7 +17,7 @@ Fun Fact: Zhang Zhaopeng is my name in Mandarin, and Cheung Siupaang is my name 
 
 📄 [CV](/CV/zzp-CV.pdf)
 
-## 🎓 Education
+<h2 id="education">Education</h2>
 
 <table style="border-collapse: collapse; border: none;">
   <tr>
@@ -40,8 +42,12 @@ Fun Fact: Zhang Zhaopeng is my name in Mandarin, and Cheung Siupaang is my name 
   </tr>
 </table>
 
-## Open-source Project
+<h2 id="publications">Publications</h2>
+
+{% include publications-list.html %}
+
+<h2 id="misc">Misc</h2>
+
+### Open-source Project
 
 - PX4-based flight controller for Aerial Manipulators: [PX4](https://github.com/cheungsiupaang/PX4-Autopilot)
-
----

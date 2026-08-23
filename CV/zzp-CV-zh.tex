@@ -1,0 +1,244 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage[ignoreheadfoot, top=0.6cm, bottom=0.5cm, left=0.3cm, right=0.3cm, footskip=1cm]{geometry}
+\usepackage{iftex}
+\ifPDFTeX%
+  \usepackage[utf8]{inputenc}
+  \usepackage{CJKutf8}
+\else
+  \usepackage[UTF8, fontset=fandol]{ctex}
+\fi
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 79, 144}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage[
+  pdftitle={Zhang Zhaopeng CV},
+  pdfauthor={Zhang Zhaopeng},
+  pdfcreator={LaTeX},
+  colorlinks=true,
+  urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\ifPDFTeX
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+  \usepackage{lmodern}
+\fi
+
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0cm}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}{\color{gray!40}\titlerule}]
+
+\titlespacing{\section}{-1pt}{0.3 cm}{0.2 cm}
+
+\renewcommand\labelitemi{$\circ$}
+\newenvironment{highlights}{
+  \begin{itemize}[
+    topsep=0.10 cm,
+    parsep=0.10 cm,
+    partopsep=0pt,
+    itemsep=0pt,
+    leftmargin=0.4 cm + 10pt
+  ]
+}{
+  \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+  \begin{adjustwidth}{0.2 cm}{0.2 cm}
+}{
+  \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+  \onecolentry
+  \def\secondColumn{#2}
+  \setcolumnwidth{\fill, 3.5 cm}
+  \begin{paracol}{2}
+}{
+  \switchcolumn\raggedleft\secondColumn
+  \end{paracol}
+  \endonecolentry
+}
+
+\newenvironment{header}{
+  \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+  \par\kern\topsep
+}
+
+\newcommand{\placelastupdatedtext}{
+  \AddToShipoutPictureFG*{
+    \put(
+      \LenToUnit{\paperwidth-1.0cm},
+      \LenToUnit{\paperheight-0.5cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+      \ifPDFTeX%
+        \small\color{gray}\textit{Last updated: 2026--05}\hspace{\widthof{Last updated: 2026--05}}
+      \else
+        \small\color{gray}\textit{最后更新于 2026.05}\hspace{\widthof{最后更新于 2026 年 5 月}}
+      \fi
+    }}}%
+  }%
+}
+
+\newcommand{\placecvphoto}{
+  \IfFileExists{Zhaopeng_Zhang.pdf}{
+    \AddToShipoutPictureFG*{
+      \put(
+        \LenToUnit{\paperwidth-2.5cm},
+        \LenToUnit{\paperheight-3.0cm}
+      ){\includegraphics[width=2.2cm,page=1]{Zhaopeng_Zhang.pdf}}
+    }%
+  }{
+    \IfFileExists{CV/Zhaopeng_Zhang.pdf}{
+      \AddToShipoutPictureFG*{
+        \put(
+          \LenToUnit{\paperwidth-2.5cm},
+          \LenToUnit{\paperheight-3.0cm}
+        ){\includegraphics[width=2.2cm,page=1]{CV/Zhaopeng_Zhang.pdf}}
+      }%
+    }{}
+  }
+}
+
+\let\hrefWithoutArrow\href
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+\begin{document}
+\ifPDFTeX%
+  \begin{CJK*}{UTF8}{gbsn}
+\fi
+\newcommand{\AND}{\unskip\cleaders\copy\ANDbox\hskip\wd\ANDbox\ignorespaces}
+\newsavebox\ANDbox\sbox\ANDbox{}
+
+% \placelastupdatedtext%
+\placecvphoto
+\begin{header}
+  \textbf{\fontsize{20 pt}{20 pt}\selectfont 张兆鹏}
+
+  \normalsize
+  \mbox{\hrefWithoutArrow{mailto:zhangzp@mail.nankai.edu.cn}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}zhangzp@mail.nankai.edu.cn}}%
+  \kern0.25cm
+  \AND%
+  \kern0.25cm
+  \mbox{\hrefWithoutArrow{tel:+86-13630482195}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}1363 048 2195}}%
+  \kern0.25cm
+  \AND%
+  \kern0.25cm
+  \mbox{\hrefWithoutArrow{https://cheungsiupaang.github.io/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}cheungsiupaang.github.io}}%
+\end{header}
+
+\section{个人基本情况}
+\begin{onecolentry}
+  \begin{highlights}
+    \item \textbf{博三在读}, 每周可实习4天以上, 可连续实习至少4个月
+    \item \textbf{研究方向}: 运动规划, 运动控制, 任务规划, 无人机, 飞行机械臂等
+  \end{highlights}
+\end{onecolentry}
+
+\vspace{-0.3 cm}
+\section{教育背景}
+% 本科
+\begin{twocolentry}{2017.9--2021.6}
+  \textbf{南开大学}, 人工智能学院, 自动化专业, 学士
+\end{twocolentry}
+\begin{onecolentry}
+  专业成绩排名: 2/41,~~主修课程: 机器人学、强化学习、机器视觉、人工智能导论、控制理论等
+\end{onecolentry}
+
+% 硕博连读
+\begin{twocolentry}{2021.9--2027.6}
+  \textbf{南开大学}, 机器人与信息自动化研究所, 控制科学与工程, 硕博连读
+\end{twocolentry}
+\begin{onecolentry}
+  研究方向: 受限空间中飞行机械臂的视觉伺服控制、运动规划与任务规划,~~导师: 韩建达教授
+\end{onecolentry}
+
+\vspace{-0.3 cm}
+\section{科研与项目经历}
+\begin{twocolentry}{2025.12--至今}
+  飞行机械臂的长时序任务规划
+  \begin{highlights}
+    \item 项目描述: 研究飞行机械臂在受限空间中执行长时序任务的规划方法, 包括任务分解、运动规划等方面
+  \end{highlights}
+\end{twocolentry}
+
+\begin{twocolentry}{2024.9--2025.11}
+  未知环境中飞行机械臂的自主导航与避障
+  \begin{highlights}
+    \item 项目描述: 现有方法通过收缩机械臂来实现飞行机械臂在受限空间中的避障, 但该种方案运动效率较低
+    \vspace{-0.1 cm}
+    \item 解决方案: 集成Livox Mid360激光雷达与Fast-LIO算法实现对自身定位与环境的感知, 使用混合A*等路径搜索算法, 以及基于多项式与B样条曲线的轨迹优化方法, 利用NLopt优化库进行优化问题解算, 实现飞行机械臂在受限空间中的快速轨迹生成及自主导航
+  \end{highlights}
+\end{twocolentry}
+
+\begin{twocolentry}{2023.6--2024.8}
+  飞行机械臂操作类任务的运动规划与控制
+   \begin{highlights}
+    \item 项目描述: 针对飞行机械臂在执行操作任务时的避障与稳定性问题, 研究其运动规划与控制方法
+    \vspace{-0.1 cm}
+    \item 解决方案: 利用BiRRT算法在系统构型空间中进行全身路径搜索, 利用基于MINCO的轨迹优化方法生成无碰撞轨迹并在受限环境中完成了飞行抓取任务的实验验证; 以及协助研究飞行机械臂执行飞行锤击任务的运动规划方法, 并成功实现飞行锤击任务
+  \end{highlights}
+\end{twocolentry}
+
+\begin{twocolentry}{2022.3--2023.5}
+  飞行机械臂的鲁棒控制与视觉伺服控制
+  \begin{highlights}
+    \item 项目描述: 机械臂赋予无人机主动作业能力, 但其运动控制较为复杂, 尤其机械臂运动会对无人机造成扰动
+    \vspace{-0.1 cm}
+    \item 解决方案: 搭建Gazebo仿真模型及飞行机械臂硬件系统, 使用基于前馈补偿的控制方法实现了飞行机械臂的鲁棒控制, 代码已在GitHub上开源; 提出了一种基于分层运动分解的飞行机械臂视觉伺服控制方法, 将运动分解为视觉伺服与动力学控制两层, 实现了对飞行机械臂的鲁棒视觉伺服控制
+  \end{highlights}
+\end{twocolentry}
+
+\vspace{-0.3 cm}
+\section{论文成果}
+\begin{onecolentry}
+An End-Effector-Oriented Coupled Motion Planning Method for Aerial Manipulators in Constrained Environments, \textit{IEEE/ASME Transactions on Mechatronics} 发表, 第一作者, 代码已开源
+
+A Safety-Aware Motion Planning Framework with Goal State Generation for Aerial Manipulation in Constrained Environments, \textit{IEEE Transactions on Industrial Electronics} 在审, 第一作者
+
+Real-time Whole-body Motion Planning for Aerial Manipulators Without Pre-built Maps, \textit{IEEE/ASME Transactions on Mechatronics} 在审, 第一作者
+
+An Impact Mitigation Strategy in Hammering Tasks for Aerial Manipulator: Analyses and Experiments, \textit{IEEE/ASME Transactions on Mechatronics} 发表, 第二作者
+
+\end{onecolentry}
+
+\vspace{-0.3 cm}
+\section{技能}
+\begin{onecolentry}
+  编程语言: C++, Python, MATLAB/Simulink
+  
+  机器人软件: ROS, Gazebo, RViz, NLopt, CasADi, PCL
+
+  机器人硬件: PX4飞控, Robotis Dynamixel舵机, Intel RealSense相机, Livox Mid360激光雷达
+
+  机器人理论：正/逆运动学, 微分平坦, 运动规划, 运动控制, A*/RRT等路径搜索算法, BSpline, MINCO等优化方法
+
+  语言能力：中文(母语), 英语(CET-6, 461)
+\end{onecolentry}
+
+\ifPDFTeX%
+  \end{CJK*}
+\fi
+\end{document}
