@@ -3,3 +3,11 @@
 .DS_Store
 
 .sass-cache
+
+*.synctex.gz
+
+*.bbl
+
+*.aux
+
+*.log
