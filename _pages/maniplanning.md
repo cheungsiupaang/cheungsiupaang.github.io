@@ -20,7 +20,13 @@ This work proposes a collision-aware whole-body motion planning framework for ae
 - **Link-Level Collision Modeling**: Represents the multi-rotor and individual arm links with multiple sets of spheres, with an adjustment to account for platform tilt during motion
 - **Dynamically Consistent Trajectory Optimization**: Uses the complete system's flat outputs, including its center of mass, to account for dynamic coupling while incorporating collision avoidance and motion feasibility constraints
 
-![Whole-body aerial manipulation in constrained environments](/publications/maniplanning.gif)
+<iframe width="400" height="225"
+        src="https://www.youtube.com/embed/sBdlaGuF9AE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+</iframe>
 
 ## Links
 
