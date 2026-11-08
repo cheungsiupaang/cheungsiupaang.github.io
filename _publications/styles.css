@@ -25,24 +25,31 @@ body, html {
 
 /* === Media (GIF / PNG) === */
 .media-container {
-  flex: 1 1 30%;
+  flex: 0 0 38%;
+  box-sizing: border-box;
   padding-right: 3%;
   text-align: center;
   margin-bottom: 0.8rem;
 }
 
+.media-container > a {
+  display: block;
+}
+
+/* All publication GIFs are 16:9; preserve their full frame without letterboxing. */
 .paper-image {
-  height: 160px;
-  width: auto;
+  display: block;
+  height: auto;
+  width: 100%;
   max-width: 100%;
-  object-fit: contain;
   border-radius: 6px;
-  border: 1px solid #ddd;
+  border: 0;
 }
 
 /* === Info Section === */
 .info-container {
-  flex: 1 1 70%;
+  flex: 1 1 62%;
+  min-width: 0;
   text-align: left;
 }
 
@@ -94,10 +101,6 @@ a:hover {
   .info-container {
       flex: 1 1 100%;
       padding-left: 0;
-  }
-
-  .paper-image {
-      height: 140px;
   }
 
   .paper-title {

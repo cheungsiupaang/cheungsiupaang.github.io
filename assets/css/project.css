@@ -1,0 +1,192 @@
+/* Shared, standalone layout for the three research project pages. */
+/* Self-host the reference fonts so they do not depend on Google Fonts access. */
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("../fonts/project/google-sans-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/project/noto-sans-latin.woff2") format("woff2");
+}
+
+:root {
+  color-scheme: light;
+  font-family: "Noto Sans", sans-serif;
+  color: #363636;
+  background: #fff;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #1687d3; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 3px solid #1673b8; outline-offset: 5px; }
+
+.project {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-header {
+  width: min(100% - 48px, 1080px);
+  margin: 0 auto;
+  padding: 48px 0 48px;
+  text-align: center;
+}
+
+.project-header h1 {
+  margin: 0 auto 44px;
+  max-width: 1080px;
+  /* LAMPS: Google Sans, 2.55rem, weight 600, normal tracking, 1.125 line height. */
+  font-family: "Google Sans", sans-serif;
+  font-size: clamp(1.9rem, 4.5vw, 2.55rem);
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.125;
+  text-wrap: balance;
+}
+
+.project-title-icon {
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: 400;
+  letter-spacing: normal;
+  vertical-align: 0.02em;
+}
+
+.project-authors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 8px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  font-family: "Google Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.project-authors li { white-space: nowrap; }
+.project-authors a { color: #209cee; }
+.project-authors a:hover { color: #1476b8; }
+.author-comma { margin-left: 1px; }
+.project-affiliation {
+  margin: 12px 0 0;
+  font-family: "Google Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #555;
+}
+.project-venue { margin: 18px 0 0; font-family: "Google Sans", sans-serif; font-size: 1.25rem; line-height: 1.5; color: #555; }
+
+.project-resources {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.project-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 48px;
+  padding: 11px 23px;
+  border-radius: 999px;
+  background: #363636;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.project-resource-icon { width: 1.1em; height: 1.1em; flex: 0 0 auto; }
+
+.project-button:hover { background: #505050; color: #fff; text-decoration: none; }
+.project-demo { max-width: 960px; margin: 32px auto 0; }
+.project-video { position: relative; aspect-ratio: 16 / 9; background: #f5f5f5; }
+.project-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.project-demo img { display: block; width: 100%; max-width: 800px; height: auto; margin: 0 auto; }
+.project-demo figcaption { margin-top: 14px; color: #686868; font-size: 0.95rem; line-height: 1.6; text-align: center; }
+.project-demo figcaption a { white-space: nowrap; }
+
+.project-content {
+  margin: 0 auto 48px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4a4a4a;
+  overflow-wrap: break-word;
+}
+
+.project-section {
+  width: min(100% - 48px, 1080px);
+  margin: 0 auto;
+  padding: 44px 0;
+}
+
+.project-abstract {
+  width: 100%;
+  padding: 44px 24px;
+  background: #f5f5f5;
+}
+
+.project-section > p,
+.project-section > ul,
+.project-section > ol,
+.project-section > h3,
+.project-section > table {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-content h2 { margin: 0 0 24px; color: #363636; font-size: 2rem; font-weight: 600; line-height: 1.125; text-align: center; }
+.project-content h3 { margin-top: 32px; margin-bottom: 18px; color: #363636; font-size: 1.25rem; font-weight: 600; line-height: 1.4; }
+.project-content p { margin: 0 0 20px; }
+.project-section > p { margin-left: auto; margin-right: auto; }
+.project-abstract p { text-align: justify; }
+.project-content ul { padding-left: 24px; }
+.project-content li { margin: 14px 0; }
+.project-figure { max-width: 960px; margin: 28px auto; }
+.project-figure--framework { max-width: 720px; }
+.project-figure a { display: block; }
+.project-figure img,
+.project-figure video { display: block; width: 100%; height: auto; margin: 0 auto; }
+.project-figure figcaption { max-width: 860px; margin: 14px auto 0; color: #686868; font-size: 0.95rem; line-height: 1.6; text-align: center; }
+.project-results-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 960px; margin: 28px auto; }
+.project-results-grid > .project-figure { min-width: 0; margin: 0; }
+.project-content table { width: 100%; margin-top: 24px; margin-bottom: 24px; border-collapse: collapse; }
+.project-content th, .project-content td { padding: 12px 14px; border-bottom: 1px solid #ddd; text-align: left; }
+.project-content th { color: #363636; font-weight: 600; }
+.project-footer { padding: 28px 24px; background: #fafafa; color: #686868; font-size: 0.9rem; text-align: center; }
+
+@media (max-width: 600px) {
+  .project-results-grid { grid-template-columns: 1fr; }
+  .project-header, .project-section { width: calc(100% - 32px); }
+  .project-section { padding: 32px 0; }
+  .project-abstract { width: 100%; padding: 32px 16px; }
+  .project-abstract p { text-align: left; }
+  .project-header { padding: 36px 0 24px; }
+  .project-header h1 { margin-bottom: 28px; }
+  .project-authors { font-size: 1.125rem; }
+  .project-affiliation { font-size: 1.125rem; }
+  .project-button { font-size: 1rem; padding: 10px 18px; }
+  .project-venue { font-size: 1rem; }
+  .project-content h2 { font-size: 1.6rem; }
+  .project-content th, .project-content td { padding: 10px 8px; }
+}

@@ -1,0 +1,15 @@
+<figure class="project-demo">
+  {% if page.video_id %}
+    <div class="project-video">
+      <iframe src="https://www.youtube.com/embed/{{ page.video_id | escape }}"
+              title="{{ page.project_name | escape }} — supplementary video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+    </div>
+    <figcaption>{{ page.demo_caption | escape }} <a href="https://www.youtube.com/watch?v={{ page.video_id | escape }}">Watch on YouTube</a></figcaption>
+  {% elsif page.demo_image %}
+    <img src="{{ page.demo_image | relative_url }}" width="320" height="180" loading="lazy" alt="{{ page.demo_caption | escape }}">
+    <figcaption>{{ page.demo_caption | escape }}</figcaption>
+  {% endif %}
+</figure>

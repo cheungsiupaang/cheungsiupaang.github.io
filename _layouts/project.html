@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include seo.html %}
+    <meta name="description" content="{{ page.description | escape }}">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link rel="preload" href="{{ '/assets/fonts/project/google-sans-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/project/noto-sans-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ '/assets/css/project.css' | relative_url }}">
+  </head>
+  <body>
+    <main id="main" class="project">
+      <header class="project-header">
+        <h1><span class="project-title-icon" aria-hidden="true">🦾</span> {{ page.title | escape }}</h1>
+        <ul class="project-authors" aria-label="Authors">
+          {% for entry in page.project_authors %}
+            {% assign person = site.data.project_authors[entry.id] %}
+            <li>
+              {% if person.url %}<a href="{{ person.url | escape }}">{{ person.name | escape }}</a>{% else %}<span>{{ person.name | escape }}</span>{% endif %}{% unless forloop.last %}<span class="author-comma">,</span>{% endunless %}
+            </li>
+          {% endfor %}
+        </ul>
+        {% if page.affiliation %}<p class="project-affiliation">{{ page.affiliation | escape }}</p>{% endif %}
+        {% if page.venue %}<p class="project-venue">{{ page.venue | escape }}</p>{% endif %}
+        {% if page.resources and page.resources.size > 0 %}
+        <div class="project-resources" aria-label="Paper resources">
+          {% for resource in page.resources %}
+            {% assign first_character = resource.url | slice: 0 %}
+            <a class="project-button" href="{% if first_character == '/' %}{{ resource.url | relative_url }}{% else %}{{ resource.url | escape }}{% endif %}">{% include project-resource-icon.html label=resource.label %}<span>{{ resource.label | escape }}</span></a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </header>
+
+      <div class="project-content">
+        {{ content }}
+      </div>
+    </main>
+    {% unless page.hide_project_footer %}
+    <footer class="project-footer">
+      <a href="{{ '/' | relative_url }}">Zhaopeng Zhang</a>
+      <span aria-hidden="true"> · </span>
+      <a href="{{ '/#publications' | relative_url }}">All publications</a>
+    </footer>
+    {% endunless %}
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<svg class="project-resource-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  {% case include.label %}
+    {% when 'Video' %}
+      <rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor" stroke="none"/>
+      <path d="m10 9 6 3-6 3Z" fill="#363636" stroke="none"/>
+    {% when 'Code' %}
+      <path d="m7 6-6 6 6 6m10-12 6 6-6 6m-3-14-4 16"/>
+    {% when 'arXiv' %}
+      <path d="m5 3 14 18M7 3l12 18M18 4 6 20"/>
+    {% when 'PDF' %}
+      <path d="M14 2H5v20h14V7Zm0 0v5h5M12 10v8m-3-3 3 3 3-3"/>
+    {% else %}
+      <path d="M14 2H5v20h14V7Zm0 0v5h5M8 12h8m-8 4h6"/>
+  {% endcase %}
+</svg>
